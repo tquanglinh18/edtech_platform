@@ -1,6 +1,5 @@
 import 'package:edtech_platform/commons/app_colors.dart';
 import 'package:edtech_platform/commons/app_dimens.dart';
-import 'package:edtech_platform/commons/app_images.dart';
 import 'package:edtech_platform/commons/app_text_style.dart';
 import 'package:edtech_platform/screens/information/commons/container_shadow.dart';
 import 'package:edtech_platform/ui/commons/app_buttons.dart';
@@ -95,11 +94,8 @@ class _InformationScreenState extends State<InformationScreen> {
                       );
                     },
                     separatorBuilder: (BuildContext context, int index) {
-                      return const Padding(
-                        padding: EdgeInsets.symmetric(vertical: 12),
-                        child: Divider(
-                          height: 12,
-                        ),
+                      return const Divider(
+                        height: 36,
                       );
                     },
                     itemCount: _optionInfoItems.length,
