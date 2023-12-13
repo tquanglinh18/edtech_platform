@@ -16,13 +16,4 @@ class AppColors {
 
   ///Divider
   static const Color dividerGrey = Color(0xFFBEC3C9);
-
-  ///Hint Text
-  static const  Color hintTextGrey = Color(0xFF252525);
-
-  ///TextField
-  static const Color textFieldEnabledBorder = Color(0xFF919191);
-  static const Color textFieldFocusedBorder = Color(0xFFd74315);
-  static const Color textFieldDisabledBorder = Color(0xFF919191);
-  static const Color textFieldCursor = Color(0xFF919191);
 }

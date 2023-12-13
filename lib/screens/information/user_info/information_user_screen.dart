@@ -51,7 +51,7 @@ Widget get _userIntroduce {
           children: [
             Text(
               'Họ và tên',
-              style: AppTextStyle.romanSilverS12W600,
+              style: AppTextStyle.romanSilverS12Normal,
             ),
             Text(
               'Nguyen Linh Quang',
@@ -68,7 +68,7 @@ Widget get _userIntroduce {
           children: [
             Text(
               'Ngày sinh',
-              style: AppTextStyle. romanSilverS12W600,
+              style: AppTextStyle.romanSilverS12Normal,
             ),
             Text(
               '03/03/2000',
@@ -86,7 +86,7 @@ Widget get _userIntroduce {
           children: [
             Text(
               'Giới tính',
-              style: AppTextStyle.romanSilverS12W600,
+              style: AppTextStyle.romanSilverS12Normal,
             ),
             Text(
               'Nam',
@@ -121,7 +121,7 @@ Widget _contactInfo({required bool isVerify}) {
           children: [
             Text(
               'Số điện thoại',
-              style: AppTextStyle.romanSilverS12W600,
+              style: AppTextStyle.romanSilverS12Normal,
             ),
             Text(
               '0858684389',
@@ -138,7 +138,7 @@ Widget _contactInfo({required bool isVerify}) {
           children: [
             Text(
               'Email',
-              style: AppTextStyle.romanSilverS12W600,
+              style: AppTextStyle.romanSilverS12Normal,
             ),
             Row(
               children: [
